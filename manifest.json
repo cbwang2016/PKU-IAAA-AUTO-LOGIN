@@ -5,7 +5,7 @@
    },
    "content_scripts": [ {
        "js" : [ "iaaa.js" ],
-       "matches": [ "https://iaaa.pku.edu.cn/*"]
+       "matches": [ "https://iaaa.pku.edu.cn/*", "https://iaaa.w.pku.edu.cn/*"]
    } ],
    "description": "Automatic PKU-IAAA login. Just you need to save it once in the Popup and leave it on the extension.",
    "icons": {
